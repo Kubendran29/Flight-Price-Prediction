@@ -3,7 +3,7 @@ import pickle
 from datetime import datetime
 
 # Load the pre-trained model
-model = pickle.load(open("model.pkl", "rb"))
+model = pickle.load(open("F:\VS Code\Project\Flight price prediction/model.pkl", "rb"))
 
 # Dictionaries for categorical variables
 airline_dict = {
